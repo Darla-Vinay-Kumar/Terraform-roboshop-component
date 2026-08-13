@@ -22,7 +22,7 @@
     connection {
       type = "ssh"
       user = "ec2-user"
-      password = "DevOps321"
+      password = "*****"
       host = aws_instance.main.private_ip
     }
     # terraform copies this files to the monhgodb instance and then executes the commands mentioned in remote-exec
